@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+}
+
+html {
+  background-color: white;
+  color: white;
+  font-family: sans-serif;
+}
+
+
+.frontpage {
+  background-color: #194224;
+  color: #ff8bff;
+  height: 950px;
+}
+
+nav {
+  padding: 22px 0px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.1s ease;
+}
+
+body.scrolled nav {
+  background-color: white;
+  width: 100%;
+}
+
+.chatgpt-icon {
+  background-image: url("images/chatgpt-icon.png");
+  background-size: cover;
+  height: 55px;
+  width: 45px;
+  display:inline-block;
+  margin-left: 22px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff8bff;
+  font-size: 1.55rem;
+  font-weight: 530;
+  margin-left: 4px;
+}
+
+.midsection {
+  margin-left: 100px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.midsection:hover select {
+  text-decoration: underline;
+}
+
+.midsection select {
+  background-color: inherit;
+  border: none;
+  color: #ff8bff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.rightsection {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  margin-left: 23px;
+  width:300px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.rightsection:hover {
+  text-decoration: underline;
+}
+
+.rightsection .box {
+  padding-left: 24px;
+}
+
+.rightsection .btn:hover {
+  background-color: #ff8bff;
+  color: #194224;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  display: inline;
+}
+
+.rightsection .btn {
+    border: 1px solid #ff8bff;
+    padding: 5px 10px 7px;
+    margin-left: 24px;
+}
+
+.box button {
+  background-color: inherit;
+  border: none;
+  color: #ff8bff;
+  font-size: 1.1rem;
+}
+.box button:hover {
+  background-color: #ff8bff;
+  color: #194224;
+  cursor: pointer;
+}
+
+.Home-Page {
+  padding: 250px 0 0;
+  display: flex;
+}
+
+.contentLeft-Box {
+  width: 638px;
+  height: 662px;
+  /* margin-left: 6px; */
+  margin-left: 34px;
+  padding-right: 44px;
+}
+ .contentLeft-Box h1 {
+   font-size: 4rem;
+   margin-bottom: 14px;
+ }
+
+ .contentLeft-Box ul {
+   list-style-type: none;
+   margin-top: 28px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+
+ .contentLeft-Box ul li {
+   padding-right: 7px;
+    font-size: 1.1rem;
+ }
+
+ .contentLeft-Box ul li span {
+    border-bottom: 0.5px solid #ff8bff;
+ }
+
+ .contentLeft-Box ul li span:hover {
+    border-bottom: 0.5px solid rgba(255, 139, 255, 0.5);
+ }
+
+ .contentLeft-Box ul li a {
+   padding: 0px 2px;
+ }
+
+ .box-btn {
+   border: 0.5px solid white;
+   padding: 8px 6px;
+   margin-right: 22px;
+   display: flex;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+
+ .box-btn:hover {
+   background-color: #ff8bff;
+   color: #194224;
+   border: none;
+ }
+
+ .contentLeft-Box p {
+   font-size: 1.7rem;
+ }
+
+ .contentRight-Box {
+   background-image: url("images/OpenAI-ChatGPT-imge.jpg");
+   background-size: cover;
+   height: 638px;
+   width: 638px;
+   margin-right: 30px;
+ }
+
+ .frontpage .ilustration p {
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 28px;
+     font-size: 0.7rem;
+ }
+
+ .Documentation {
+   height : 400px;
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
